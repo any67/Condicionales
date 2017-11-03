@@ -20,7 +20,7 @@ public class Calificacion
       nota1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota1"));
       nota2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota2"));
       nota3 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota3"));
-      promedio =Float.parseFloat(JOptionPane.showInputDialog("Ingrese promedio"));
+      promedio = (nota1+nota2+nota3)/3;
          if (promedio > 4) 
          {
              JOptionPane.showMessageDialog(null, "Aprobo");  
